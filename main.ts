@@ -6,7 +6,7 @@ input.onGesture(Gesture.Shake, function () {
     music.playMelody("G B A G C5 B A B ", 120)
 })
 input.onButtonPressed(Button.AB, function () {
-	
+    basic.showIcon(IconNames.Square)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.No)
